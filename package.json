@@ -1,6 +1,6 @@
 {
   "name": "reserved-usernames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List of reserved usernames to prevent URL collision with resource paths",
   "author": "Manuel Vila <mvila@3base.com>",
   "keywords": [
