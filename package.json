@@ -20,7 +20,7 @@
     "url": "git://github.com/mvila/reserved-usernames"
   },
   "scripts": {
-    "release": "(git checkout --quiet master && test -z \"$(git status --porcelain)\" && npm version $npm_config_release_type && git push --follow-tags && npm publish) || echo \"An error occured (unclean repository?)\"",
+    "release": "(git checkout --quiet master && test -z \"$(git status --porcelain)\" && npm version $npm_config_release_type && git push --follow-tags && npm publish) || echo \"An error occurred (uncommitted changes?)\"",
     "release-patch": "npm run release --release-type=patch",
     "release-minor": "npm run release --release-type=minor",
     "release-major": "npm run release --release-type=major",
